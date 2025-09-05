@@ -9,5 +9,15 @@ public class ClasseCaminhoes extends ClasseAutomotores{
 		
 		this.cargaSuportadaAt = cargaSuportadaPar;
 	}
+	//getters
+	public float pegarCarga() {
+		return cargaSuportadaAt;
+	}
+	
+	
+	//Setters (public void + parametros + this
+	public void AlterarCarga(float cargaSuportadaPar) {
+		this.cargaSuportadaAt = cargaSuportadaPar;
+	}
 
 }
